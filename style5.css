@@ -1,0 +1,697 @@
+.nav {
+  background-color: #1a1a1a;
+  list-style-type: none;
+  border-bottom: 3px solid #e84a4a;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+font-family: ProximaNovaRegular;
+src: url(https://fonts.zohostatic.com/proxima/ProximaNova-Reg-webfont.eot);
+src: url(https://fonts.zohostatic.com/proxima/ProximaNova-Reg-webfont.eot?#iefix) format('embedded-opentype'), url(https://fonts.zohostatic.com/proxima/ProximaNova-Reg-webfont.woff) format('woff'), url(https://fonts.zohostatic.com/proxima/ProximaNova-Reg-webfont.ttf) format('truetype'), url(https://fonts.zohostatic.com/proxima/ProximaNova-Reg-webfont.svg#ProximaNovaRgRegular) format('svg');
+font-weight: 400;
+font-style: normal;
+}
+
+@font-face {
+font-family: ProximaNovaLight;
+src: url(https://fonts.zohostatic.com/proxima/ProximaNova-Light-webfont.eot);
+src: url(https://fonts.zohostatic.com/proxima/ProximaNova-Light-webfont.eot?#iefix) format('embedded-opentype'), url(https://fonts.zohostatic.com/proxima/ProximaNova-Light-webfont.woff) format('woff'), url(https://fonts.zohostatic.com/proxima/ProximaNova-Light-webfont.ttf) format('truetype'), url(https://fonts.zohostatic.com/proxima/ProximaNova-Light-webfont.svg#ProximaNovaLtLight) format('svg');
+font-weight: 400;
+font-style: normal;
+}
+
+@font-face {
+font-family: ProximaNovaThin;
+src: url(https://fonts.zohostatic.com/proxima/ProximaNova-Thin-webfont.eot);
+src: url(https://fonts.zohostatic.com/proxima/ProximaNova-Thin-webfont.eot?#iefix) format('embedded-opentype'), url(https://fonts.zohostatic.com/proxima/ProximaNova-Thin-webfont.woff) format('woff'), url(https://fonts.zohostatic.com/proxima/ProximaNova-Thin-webfont.ttf) format('truetype'), url(https://fonts.zohostatic.com/proxima/ProximaNova-Thin-webfont.svg#ProximaNovaThThin) format('svg');
+font-weight: 400;
+font-style: normal;
+}
+
+@font-face {
+font-family: ProximaNovaLtSemibold;
+src: url(https://fonts.zohostatic.com/proxima/ProximaNova-Sbold-webfont.eot);
+src: url(https://fonts.zohostatic.com/proxima/ProximaNova-Sbold-webfont.eot?#iefix) format('embedded-opentype'), url(https://fonts.zohostatic.com/proxima/ProximaNova-Sbold-webfont.woff) format('woff'), url(https://fonts.zohostatic.com/proxima/ProximaNova-Sbold-webfont.ttf) format('truetype'), url(https://fonts.zohostatic.com/proxima/ProximaNova-Sbold-webfont.svg#ProximaNovaLtSemibold) format('svg');
+font-weight: 400;
+font-style: normal;
+}
+
+@font-face {
+font-family: ProximaNovaXbold;
+src: url(https://fonts.zohostatic.com/proximanova/proximanova_extrabold_macroman/ProximaNova-Xbold-webfont.eot);
+src: url(https://fonts.zohostatic.com/proximanova/proximanova_extrabold_macroman/ProximaNova-Xbold-webfont.eot?#iefix) format('embedded-opentype'), url(https://fonts.zohostatic.com/proximanova/proximanova_extrabold_macroman/ProximaNova-Xbold-webfont.woff) format('woff'), url(https://fonts.zohostatic.com/proximanova/proximanova_extrabold_macroman/ProximaNova-Xbold-webfont.ttf) format('truetype'), url(https://fonts.zohostatic.com/proximanova/proximanova_extrabold_macroman/ProximaNova-Xbold-webfont.svg#ProximaNovaThExtrabold) format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: ProximaNovaBold;
+src: url(https://fonts.zohostatic.com/proxima/ProximaNova-Bold-webfont.eot);
+src: url(https://fonts.zohostatic.com/proxima/ProximaNova-Bold-webfont.eot?#iefix) format('embedded-opentype'), url(https://fonts.zohostatic.com/proxima/ProximaNova-Bold-webfont.woff) format('woff'), url(https://fonts.zohostatic.com/proxima/ProximaNova-Bold-webfont.woff) format('truetype'), url(https://fonts.zohostatic.com/proxima/ProximaNova-Bold-webfont.svg#ProximaNovaLtSemibold) format('svg');
+font-weight: 400;
+font-style: normal;
+}
+
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  color:white;
+  padding: 20px;
+  margin:0px;
+}
+#hot_head{
+  background-color: black;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#hot_head li{
+  display: inline-block;
+  font-size: 20px;
+  color:white;
+  padding: 1px;
+  margin:0px;
+}
+#calendar_head li{
+  display:inline-block;
+  font-size:20px;
+  color:white;
+  padding:1px;
+  margin:0px;
+}
+ .elements > p{
+  color:white;
+  font-family: "sans-serif";
+  font-size:18px;
+}
+.a{
+  color:white;
+  padding:10px;
+
+}
+
+.elements{
+  float:left;
+  width:6%;
+  max-width: 10%;
+  left:10px;
+  position:relative;
+  margin-left:40px;
+}
+.arrow-right:before {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+}
+#arr1:before{
+  border-left: 8px solid #55ACEE;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  vertical-align: middle;
+  margin-left:-4px;
+  margin-top:-7px;
+}
+#arr2:before{
+  border-left: 8px solid #3B5998;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  vertical-align: middle;
+  margin-left:-4px;
+  margin-top:-7px;
+}
+#arr3:before{
+  border-left: 8px solid #ea4c89;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  vertical-align: middle;
+  margin-left:-4px;
+  margin-top:-7px;
+}
+#arr4:before{
+  border-left: 8px solid #ff6600;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  vertical-align: middle;
+  margin-left:-4px;
+  margin-top:-7px;
+}
+#enter_arrow:before{
+  border-right: 10px solid #202020;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  vertical-align: middle;
+  margin-left:575px;
+  margin-top:-340px;
+}
+
+#comment_head:after {
+  content:" ";
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid #1d1e20;
+  position:relative;
+  top:2px;
+  left:9px;
+}
+
+#poll_head:after {
+  content:" ";
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid black;
+  position:relative;
+  top:8px;
+  left:15px;
+}
+#foot_post_head:after {
+  content:" ";
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid #1d1e20;
+  position:relative;
+  top:8px;
+  left:8px;
+}
+#video_head:after {
+  content:" ";
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid #1d1e20;
+  position:relative;
+  top:13px;
+  left:8px;
+}
+#random_head:after {
+  content:" ";
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid #1d1e20;
+  position:relative;
+  top:7px;
+  left:10px;
+}
+#lifestyle_head:after {
+  content:" ";
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid #00b4ff;
+  position:relative;
+  top:37px;
+  left:-550px;
+}
+#carousel_head:after {
+  content:" ";
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid #383838;
+  position:relative;
+  top:38px;
+  left:-550px;
+}
+#music_head:after {
+  content:" ";
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid #52ab0a;
+  position:relative;
+  top:38px;
+  left:-550px;
+}
+#world_news_head:after {
+  content:" ";
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid #34466b;
+  position:relative;
+  top:38px;
+  left:-550px;
+}
+#popular_head:after {
+  content:" ";
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid #1d1e20;
+  position:relative;
+  top:13px;
+  left:13px;
+}
+#post_head:after {
+  content:" ";
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid #E35040;
+  position:relative;
+  top:3px;
+  left:13px;
+}
+#hot_head_div:after {
+  content:" ";
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid black;
+  position:relative;
+  top:8px;
+  left:13px;
+}
+#bottom_recent:after {
+  content:" ";
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid #252729;
+  position:relative;
+  top:13px;
+  left:7px;
+}
+#bottom_best:after {
+  content:" ";
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid #252729;
+  position:relative;
+  top:8px;
+  left:50px;
+}
+#bottom_news:after {
+  content:" ";
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid #252729;
+  position:relative;
+  top:8px;
+  left:50px;
+}
+#bottom_connect:after {
+  content:" ";
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid #252729;
+  position:relative;
+  top:8px;
+  left:9px;
+}
+
+  #body{
+  /*  margin:20px 80px 20px 80px; */
+  margin:50px auto;
+    width:1200px;
+    height:2490px;
+  }
+  body{
+    margin:0;
+    font-family: ProximaNovaRegular, ProximaNovaLight, ProximaNovaThin, ProximaNovaLtSemibold, ProximaNovaXbold, ProximaNovaBold;
+
+  }
+  *{
+      margin: 0px;
+      padding: 0px;
+      z-index: 1;
+  }
+  .rows{
+    background-color: transparent;
+  }
+
+
+  #body:after{
+    content:"";
+    display:block;
+    clear:both;
+  }
+  #left{
+    float:left;
+    width:280px;
+    max-width: 30%;
+  /*  border:1px solid red;  */
+    height:2500px;
+  /*  padding:10px 10px 10px 10px;  */
+  }
+
+  #right{
+    float:left;
+    width:880px;
+  /*  border:1px solid red;  */
+    margin-left:20px;
+    height:2500px;
+  /*  padding:10px 10px 10px 10px;  */
+
+  }
+
+  #entertainment{
+    float:left;
+    background-color: grey;
+    width:585;
+    height:380px;
+  }
+  #news{
+    float:left;
+    background-color: #202020;
+    width:295px;
+    height:380px;
+  }
+  #n1,#n2,#n3{
+    width:100%;
+    height:93px;
+    border-bottom: 1px solid black;
+
+  }
+
+    #news_box:after{     /*contains grey and news ,floating */
+      content:"";
+      display:block;
+      clear:both;
+    }
+
+  #post_box{
+    width:880px;
+    max-width: 100%;
+  /*  border:1px solid cyan;  */
+  /*  margin:10px 0px 10px 0px;  */
+  margin:35px 0px 0px 0px;
+  /*  height:2500px;  */
+  }
+
+      #post_box:after{     /*contains grey and news ,floating */
+        content:"";
+        display:block;
+        clear:both;
+      }
+  #r1{
+    width:280px;
+  /*  border:1px solid cyan;  */
+    float:left;
+
+  }
+  #r2{
+    width:578px;
+    float:left;
+  /*  height:2500px;  */
+    padding-left: 20px;
+  }
+  #video{
+  /*  padding:10px 10px 0px 0px;  */
+    width:280px;
+    height:236px;
+  }
+  #oct,#nov,#dec{
+    float:left;
+    width:33%;
+    height:80%; /*  cent of header */
+  }
+  #calendar_head:after{     /*contains grey and news ,floating */
+    content:"";
+    display:block;
+    clear:both;
+  }
+  td {
+  border: 1px #E0E0E0;
+  width:14%;
+  text-align: center;
+  background-color: #E0E0E0;
+  height:30px;
+}
+#Random_posts{
+    margin-top:38px;padding-top:2px;
+}
+#v1,#v2,#v3,#v4,#v5,#v6,#v7,#v8,#v9{
+  float:left;
+  background-color:#383838;
+  height:92%;
+  border-radius:3px;
+
+}
+#v1{ width:40% ;height:92%}
+#v2{  margin-left: 5px;width:33%; height:92%}
+#v3{ width:45%; }
+#v4{  margin-left: 5px;width:50%;}
+#v5{ width:30%; }
+#v6{  margin-left: 5px;width:50%;}
+#v7{ width:43%; }
+#v8{  margin-left: 5px;width:49%;}
+#v9{width:55%}
+#l1:after{     /* popular tags */
+  content:"";
+  display:block;
+  clear:both;
+}
+#l2:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+
+#l3:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+
+#l4:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+
+#l5:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+#post_of_day{
+/*  padding:10px 0px 0px 0px;  */
+  width:100%;
+  height:290px;
+}
+#day_left,#day_right{
+  float:left;
+}
+#day_left{
+  width:50%;
+}
+#day_right{
+  width:45%; padding-left: 20px;
+}
+#post_body:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+#here_what{
+  width:580px;
+  height:410px;
+  margin-top:38px;
+}
+#topic,#wifi,#insta_left,#insta_right,#boxes,#articles,#box1,#box2,#box3,#box4,#box5{
+  float:left;
+}
+#post_head:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+#insta_body:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+#insta_right{
+  margin-left:10px;
+}
+
+#insta_right:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+#carousel_posts{
+  margin-top:43px;
+}
+#nboxes:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+#nboxes{
+  margin-top:27px;
+}
+#box1,#box2,#box3{
+  width:180px;
+  height:150px;
+  margin:0%;
+}
+#box2,#box3{
+  margin-left:20px;
+}
+#m_boxes:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+#z1:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+#fb,#twitter,#twitter_con,#fb_con,#dribble,#dribble_con,#rss,#rss_con{
+  float:left;
+  width:68px;
+  height:65px;
+}
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px ;
+}
+#bottom{
+  height:400px;
+  width:1200px;
+  background-color: #080808;
+  border-bottom:3px solid black;
+}
+#footer{
+  height:450px;
+}
+#div1,#div2,#div3,#div4{
+  float:left;
+  width:280px;
+  margin-top:25px;
+  height:375px;
+}
+#div1{
+  margin-left:0px;
+}
+#div2{
+  margin-left:20px;
+}
+#div3{
+margin-left:20px;
+
+}
+#div4{
+  margin-left:20px;
+
+}
+#h1,#h2{
+  float:left;
+}
+#h2{
+  margin-top:20px;
+  margin-left:10px;
+  width:728px;
+  height:90px;
+  border:1px solid #B0B0B0;
+  background-color: #E8E8E8;
+}
+/*
+#post_head:before{
+  content:"";
+    position: absolute;
+    right: 650px;
+    top: 700px;
+    width: 0;
+    height: 0;
+    border-style: solid ;
+    border-width: 0px 10px 10px 10px;
+    border-color: transparent transparent #fae0bb transparent;
+    z-index:9999;
+}
+*/
+#find_fb{
+  height:210px;
+  width:280px;
+  margin-top:42px;
+  border:1px solid black;
+}
+#fbHeadingIcon{
+  background-image: url(themeForest.png);
+  padding: 0px 40px 40px 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#fbProfile1{
+  background-image: url(photo1.png);
+  padding: 0px 20px 40px 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#fbProfile2{
+  background-image: url(photo2.png);
+  padding: 0px 30px 40px 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+}#fbProfile3{
+  background-image: url(photo3.png);
+  padding: 0px 40px 40px 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+}#fbProfile4{
+  background-image: url(photo4.png);
+  padding: 0px 40px 40px 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#fbProfile5{
+  background-image: url(photo5.png);
+  padding: 0px 20px 40px 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#art1,#art2,#art3,#art4{
+  width:280px;
+  height:80px;
+  margin-left:10px;
+  border-bottom:1px dashed grey;
+}
+#cmt1,#cmt2,#cmt3,#cmt4{
+  width:280px;
+  height:80px;
+  border-bottom:1px dashed grey;
+}
+#pic,#pic_news{
+  float:left;
+}
+#backToTop{
+  margin-top:-20px;
+  background-image: url(backToTop.png);
+  padding: 6px 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+}

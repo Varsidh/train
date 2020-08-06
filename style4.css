@@ -1,0 +1,394 @@
+.nav {
+  background-color: #1a1a1a;
+  list-style-type: none;
+  border-bottom: 3px solid #e84a4a;
+  margin: 0;
+  padding: 0;
+
+}
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  color:white;
+  padding: 20px;
+  margin:0px;
+}
+#hot_head{
+  background-color: black;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#hot_head li{
+  display: inline-block;
+  font-size: 20px;
+  color:white;
+  padding: 1px;
+  margin:0px;
+}
+#calendar_head li{
+  display:inline-block;
+  font-size:20px;
+  color:white;
+  padding:1px;
+  margin:0px;
+}
+ .elements > p{
+  color:white;
+  font-family: "sans-serif";
+  font-size:18px;
+}
+.a{
+  color:white;
+  padding:10px;
+
+}
+
+.elements{
+  float:left;
+  width:6%;
+  max-width: 10%;
+  left:10px;
+/*  padding:10px;  */
+  position:relative;
+
+  margin-left:40px;
+}
+
+  #body{
+  /*  margin:20px 80px 20px 80px; */
+  margin:20px auto;
+    width:1200px;
+    font-family: sans-serif;
+  }
+  body{
+    margin:0;
+    font-family: ProximaNovaRegular, ProximaNovaLight, ProximaNovaThin, ProximaNovaLtSemibold, ProximaNovaXbold, ProximaNovaBold;
+  }
+
+  #body:after{
+    content:"";
+    display:block;
+    clear:both;
+  }
+  #left{
+    float:left;
+    width:280px;
+    max-width: 30%;
+  /*  border:1px solid red;  */
+    height:2860px;
+  /*  padding:10px 10px 10px 10px;  */
+  }
+
+  #right{
+    float:left;
+    width:875px;
+  /*  border:1px solid red;  */
+    margin-left:20px;
+    height:2860px;
+  /*  padding:10px 10px 10px 10px;  */
+
+  }
+
+  #entertainment{
+    float:left;
+    background-color: grey;
+    width:63%;
+    height:350px;
+  }
+  #news{
+    float:left;
+    background-color: #202020;
+    width:37%;
+    height:350px;
+  }
+  #n1,#n2,#n3{
+    width:100%;
+    height:31.3%;
+    border-bottom: 1px solid black;
+
+  }
+
+    #news_box:after{     /*contains grey and news ,floating */
+      content:"";
+      display:block;
+      clear:both;
+    }
+
+  #post_box{
+    width:100%;
+    max-width: 100%;
+  /*  border:1px solid cyan;  */
+    margin:10px 0px 10px 0px;
+    height:2500px;
+  }
+
+      #post_box:after{     /*contains grey and news ,floating */
+        content:"";
+        display:block;
+        clear:both;
+      }
+  #r1{
+    width:280px;
+  /*  border:1px solid cyan;  */
+    float:left;
+    height:2500px;
+  }
+  #r2{
+    width:582px;
+  /*  border:1px solid cyan;  */
+    float:left;
+    height:2500px;
+    padding-left: 12px;
+  }
+  #video{
+    padding:10px 10px 0px 0px;
+    width:100%;
+    height:300px;
+  }
+  #oct,#nov,#dec{
+    float:left;
+    width:33%;
+    height:80%; /*  cent of header */
+  }
+  #calendar_head:after{     /*contains grey and news ,floating */
+    content:"";
+    display:block;
+    clear:both;
+  }
+  td {
+  border: 1px #E0E0E0;
+  width:14%;
+  text-align: center;
+  background-color: #E0E0E0;
+  height:30px;
+}
+#v1,#v2,#v3,#v4,#v5,#v6,#v7,#v8,#v9{
+  float:left;
+  background-color:#383838;
+  height:92%;
+}
+#v1{ width:40% ;height:92%}
+#v2{  margin-left: 5px;width:33%; height:92%}
+#v3{ width:45%; }
+#v4{  margin-left: 5px;width:50%;}
+#v5{ width:30%; }
+#v6{  margin-left: 5px;width:50%;}
+#v7{ width:43%; }
+#v8{  margin-left: 5px;width:49%;}
+#v9{width:55%}
+#l1:after{     /* popular tags */
+  content:"";
+  display:block;
+  clear:both;
+}
+#l2:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+
+#l3:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+
+#l4:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+
+#l5:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+#post_of_day{
+  padding:10px 0px 0px 0px;
+  width:100%;
+  height:350px;
+}
+#day_left,#day_right{
+  float:left;
+}
+#day_left{
+  width:50%;
+}
+#day_right{
+  width:45%; padding-left: 20px;
+}
+#post_body:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+#topic,#wifi,#insta_left,#insta_right,#boxes,#articles,#box1,#box2,#box3,#box4,#box5{
+  float:left;
+}
+#post_head:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+#insta_body:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+
+#insta_right:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+
+#nboxes:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+#box1,#box2,#box3{
+
+  margin:1%;
+}
+
+#m_boxes:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+#z1:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+#fb,#twitter,#twitter_con,#fb_con,#dribble,#dribble_con,#rss,#rss_con{
+  float:left;
+  width:68px;
+  height:65px;
+}
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px ;
+}
+/*.fa-rss {
+  background: #ff6600;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px ;
+}*/
+#bottom{
+  height:300px;
+  width:1347px;
+  background-color: #080808;
+}
+#div1,#div2,#div3,#div4{
+  float:left;
+  width:280px;
+/*  border:1px solid red;  */
+  height:100%;
+}
+#div1{
+  margin-left:75px;
+}
+#div2{
+  margin-left:105px;
+}
+#div3{
+margin-left:15px;
+  width:250px;
+}
+#div4{
+  margin-left:25px;
+  width:260px;
+}
+#h1,#h2{
+  float:left;
+}
+#h2{
+  margin-top:20px;
+  margin-left:10px;
+  width:728px;
+  height:90px;
+  border:1px solid #B0B0B0;
+  background-color: #E8E8E8;
+}
+/*
+#post_head:before{
+  content:"";
+    position: absolute;
+    right: 650px;
+    top: 700px;
+    width: 0;
+    height: 0;
+    border-style: solid ;
+    border-width: 0px 10px 10px 10px;
+    border-color: transparent transparent #fae0bb transparent;
+    z-index:9999;
+}
+*/
+#find_fb{
+  height:200px;
+  width:280px;
+  border:1px solid black;
+}
+#fbHeadingIcon{
+  background-image: url(themeForest.png);
+  padding: 0px 40px 40px 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#fbProfile1{
+  background-image: url(photo1.png);
+  padding: 0px 20px 40px 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#fbProfile2{
+  background-image: url(photo2.png);
+  padding: 0px 30px 40px 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+}#fbProfile3{
+  background-image: url(photo3.png);
+  padding: 0px 40px 40px 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+}#fbProfile4{
+  background-image: url(photo4.png);
+  padding: 0px 40px 40px 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#fbProfile5{
+  background-image: url(photo5.png);
+  padding: 0px 20px 40px 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#art1,#art2,#art3,#art4{
+  width:280px;
+  height:80px;
+  margin-left:10px;
+  border-bottom:1px dashed grey;
+}
+#cmt1,#cmt2,#cmt3,#cmt4{
+  width:278px;
+  height:88px;
+  border-bottom:1px dashed grey;
+}
+#pic,#pic_news{
+  float:left;
+}
